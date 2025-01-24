@@ -1,1 +1,18 @@
-# cnn-waste-classification
+# Cnn-waste-classification
+This project is using convolutional networks for waste classification into plastic and non plastic. It is a part of my edunet internship in green technology and Ai.
+
+# Dataset
+The dataset used for this project is the Waste Classification Data by Sashaank Sekar. It contains a total of 25,077 labeled images, divided into two categories: Organic and Recyclable. This dataset is designed to facilitate waste classification tasks using machine learning techniques.
+
+## Link : https://www.kaggle.com/datasets/techsash/waste-classification-data/data
+
+Description:
+- **Total Images**: 25,077  
+  - **Training Data**: 22,564 images (85%)  
+  - **Test Data**: 2,513 images (15%)  
+- **Classes**: Organic and Recyclable  
+- **Purpose**: To aid in automating waste management and reducing the environmental impact of improper waste disposal.
+  
+# week 1 :
+I setup jupyter notebook, and import dataset in that notebook, installed necessary libraries, then we need to import layers, activation function, model from CNN model from tensorflow, then we need to perform EDA, check shape of data and then visualise the data which consists of organic and recyclable waste.
+
